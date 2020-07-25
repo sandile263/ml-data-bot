@@ -5,7 +5,7 @@
 This project is the small demo to create Conversation Agent which can perform tasks on data and also can give you important insights from data.
 The bot is created using opensource NLP & NLU framework `Rasa` which gives ample foundation to create Knowledge based chatbot by intents, entities, slots etc.
 
-![rasa_img](images/rasa.png)
+
 
 You can see the demo from below GIF where I am asking the bot questions regarding different datasets and it is answering me and also it is doing changes in datasets as per my messages.
 
@@ -14,7 +14,7 @@ You can see the demo from below GIF where I am asking the bot questions regardin
 # How to Run the Project
 - Install latest version of `rasa` using the instructions given on [official website](https://rasa.com/docs/rasa/user-guide/installation/) and `Python` version in your system must be `3.6 or greater`.
 - Clone this repository with following command.
-  - `git clone https://github.com/ashutosh1919/ml-data-bot.git`
+  - `git clone https://github.com/sandile263/ml-data-bot.git`
 - I have not uploaded the pretrained model file because of its size but you can train model using following command.
   - `rasa train`
   - Note that, you **don't need GPU** to train model.
@@ -40,8 +40,3 @@ You can see the demo from below GIF where I am asking the bot questions regardin
 - You can add more valid intents in `data/nlu.md`
 - Also, please change `domain.yml` file as per the change in intents.
 - You can add more functionalities bot can perform by adding addtional methods in `actions.py`
-
-# References
-- Official YouTube videos of [Rasa Materclass](https://www.youtube.com/watch?v=rlAQWbhwqLA&list=PL75e0qA87dlHQny7z43NduZHPo6qd-cRc) is good and sufficient to understand Rasa.
-- Free [ebook](https://info.rasa.com/masterclass-ebook) to learn Rasa start to end.
-- Official rasa [documentation](https://rasa.com/docs/).
